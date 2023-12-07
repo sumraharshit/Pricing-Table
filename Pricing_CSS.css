@@ -3,3 +3,41 @@
     font-family: 'Dancing Script', cursive;
     font-size: 37px;
 }
+.sub-container{
+    font-family: 'Nova Square', sans-serif;
+    font-size: 20px;
+    border: 10px orangered solid;
+    border-radius:8%;
+   
+    padding: 3%;
+    text-align: center;
+}
+
+.price-container{
+    display:flex;
+    justify-content:space-around;
+    height: 690px;
+    align-items: center;
+    flex: 1;
+   
+}
+@media (max-width:786px) {
+    .price-container{
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        flex-shrink: 1;
+       
+    }
+
+    .sub-container{
+        margin-bottom:8px;
+        padding: 1%;
+        border: 5px orangered solid;
+        font-size: 15px;
+    }
+
+    .plan{
+     font-size: 24px;
+    }
+}
